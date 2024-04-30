@@ -2,7 +2,7 @@ export default function InvestmentCalculator()  {
     return <div id="user-input" className="input-group">
         <div>
             <p className="label">INITIAL INVESTMENT</p>
-            <input id="initial" className="input"/>
+            <input id="initial" className="input" placeholder="0"/>
             <p className="label">EXPECTED RETURNS</p>
             <input id="expected" className="input"/>
         </div>
